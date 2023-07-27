@@ -1,4 +1,4 @@
-module github.com/Anchovio/pspmigrator.git
+module github.com/Anchovio/pspmigrator
 
 go 1.18
 
