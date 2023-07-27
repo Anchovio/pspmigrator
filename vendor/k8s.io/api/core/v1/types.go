@@ -6440,7 +6440,7 @@ type WindowsSecurityContextOptions struct {
 	GMSACredentialSpecName *string `json:"gmsaCredentialSpecName,omitempty" protobuf:"bytes,1,opt,name=gmsaCredentialSpecName"`
 
 	// GMSACredentialSpec is where the GMSA admission webhook
-	// (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the
+	// (https://github.com/anchovio/windows-gmsa) inlines the contents of the
 	// GMSA credential spec named by the GMSACredentialSpecName field.
 	// +optional
 	GMSACredentialSpec *string `json:"gmsaCredentialSpec,omitempty" protobuf:"bytes,2,opt,name=gmsaCredentialSpec"`
