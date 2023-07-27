@@ -23,7 +23,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/anchovio/pspmigrator"
+	"github.com/kubernetes-sigs/pspmigrator"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/api/errors"

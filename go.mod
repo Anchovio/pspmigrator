@@ -1,4 +1,4 @@
-module github.com/anchovio/pspmigrator
+module github.com/kubernetes-sigs/pspmigrator
 
 go 1.18
 

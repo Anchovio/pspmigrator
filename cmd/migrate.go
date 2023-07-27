@@ -21,7 +21,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/anchovio/pspmigrator"
+	"github.com/kubernetes-sigs/pspmigrator"
 	"github.com/manifoldco/promptui"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
