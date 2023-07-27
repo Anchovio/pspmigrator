@@ -70,6 +70,10 @@ func FetchControllerObj(kind, name, namespace string, clientset *kubernetes.Clie
 	// statement for Deployments.
 	switch kind {
 	case "ReplicaSet":
+		return clientset.AppsV1().ReplicaSets(namespace).Get(context.TODO(), name, metav1.GetOptions{})	
+	case "StatefulSet":
+		return clientset.AppsV1().ReplicaSets(namespace).Get(context.TODO(), name, metav1.GetOptions{})
+	case "Job":
 		return clientset.AppsV1().ReplicaSets(namespace).Get(context.TODO(), name, metav1.GetOptions{})
 	case "DaemonSet":
 		return clientset.AppsV1().DaemonSets(namespace).Get(context.TODO(), name, metav1.GetOptions{})
