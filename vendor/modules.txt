@@ -29,8 +29,6 @@ github.com/PuerkitoBio/urlesc
 # github.com/beorn7/perks v1.0.1
 ## explicit; go 1.11
 github.com/beorn7/perks/quantile
-# github.com/blang/semver v3.5.1+incompatible
-## explicit
 # github.com/blang/semver/v4 v4.0.0
 ## explicit; go 1.14
 github.com/blang/semver/v4
@@ -93,8 +91,6 @@ github.com/google/go-cmp/cmp/internal/value
 # github.com/google/gofuzz v1.1.0
 ## explicit; go 1.12
 github.com/google/gofuzz
-# github.com/googleapis/gnostic v0.5.5
-## explicit; go 1.12
 # github.com/imdario/mergo v0.3.5
 ## explicit
 github.com/imdario/mergo
@@ -107,6 +103,10 @@ github.com/josharian/intern
 # github.com/json-iterator/go v1.1.12
 ## explicit; go 1.12
 github.com/json-iterator/go
+# github.com/kubernetes-sigs/pspmigrator v0.0.0-20220930182030-9261f26bfec3
+## explicit; go 1.18
+github.com/kubernetes-sigs/pspmigrator
+github.com/kubernetes-sigs/pspmigrator/cmd
 # github.com/mailru/easyjson v0.7.6
 ## explicit; go 1.12
 github.com/mailru/easyjson/buffer
@@ -449,6 +449,7 @@ k8s.io/client-go/plugin/pkg/client/auth/azure
 k8s.io/client-go/plugin/pkg/client/auth/exec
 k8s.io/client-go/plugin/pkg/client/auth/gcp
 k8s.io/client-go/plugin/pkg/client/auth/oidc
+k8s.io/client-go/plugin/pkg/client/auth/openstack
 k8s.io/client-go/rest
 k8s.io/client-go/rest/watch
 k8s.io/client-go/third_party/forked/golang/template
