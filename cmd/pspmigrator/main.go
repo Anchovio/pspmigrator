@@ -17,7 +17,7 @@ limitations under the License.
 package main
 
 import (
-	"github.com/kubernetes-sigs/pspmigrator/cmd"
+	"github.com/anchovio/pspmigrator/cmd"
 )
 
 func main() {
