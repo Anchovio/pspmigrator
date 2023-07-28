@@ -1,3 +1,6 @@
+## This pspmigrator has been updated and repurposed to support our needs. Please visit the upstream.
+  - Changes made: Added Statefulsets and Jobs
+
 # pspmigrator: Migrate from PSP to PSA
 
 pspmigrator is a tool to make it easier for K8s users to migrate from
@@ -17,11 +20,10 @@ Status: Work in progress, usable for testing purposes
 
 ## Installation
 
-```
-go install github.com/kubernetes-sigs/pspmigrator/cmd/pspmigrator
-```
+To run clone and navigate to `pspmigrator/cmd/pspmigrator`, run commands by running `go run ./cmd/pspmigrator mutating pods`
 
-Alternatively, you can download a release from [here](https://github.com/kubernetes-sigs/pspmigrator/releases/latest)
+Alternatively you can run `go install github.com/Anchovio/pspmigrator/cmd/pspmigrator`
+
 
 ## Usage
 Start the migration from PSP to PSA
